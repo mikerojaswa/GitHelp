@@ -9,3 +9,7 @@ Git cheatsheet for when you messed something up and need to fix it. Was tired of
 
 ## Reset branch to last commit (S/O to Aaron for this puppy)
 ```git reset --hard HEAD```
+
+## Amend commit + force push (don't do this if its a shared branch)
+```git commit --amend```
+```git push origin <branch-name> -f```
